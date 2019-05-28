@@ -8,6 +8,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 	<link href="https://fonts.googleapis.com/css?family=Libre+Baskerville:400,700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,800i&display=swap" rel="stylesheet">
     <title>European Carbon Dividend</title>
   </head>
   <body>
@@ -16,8 +17,12 @@
 			height: 100%;
 		}
 		body {
-			font-family: 'Libre Baskerville', serif;
+			font-family: 'Montserrat', serif;
 			height: 100%;
+		}
+		h1 {
+			font-weight: 800;
+			font-style: italic;
 		}
 		h1, h2, h3, h4, h5 {
 			color: #031b4e;
@@ -30,12 +35,12 @@
 			height: 35px;
 			display: inline-block;
 			border-radius: 100%;
-			color: white;
 			line-height: 35px;
-			border: 1px dashed black;
-			color: black;
+			border: 1px dashed rgba(3,27,78,.7);
+			color: rgba(3,27,78,.7);
 			font-size: 0.8rem;
 			flex: none;
+			font-weight: 500;
 		}
 		.black-bg {
 			background-color: black;
@@ -49,24 +54,31 @@
 			color: black;
 		}
 		.h-100 {
-			min-height: 600px;
+			min-height: 100%;
 		}
 		.border-top-dashed {
 			border-top: 1px dashed gray;
 		}
 		.vh100 {
-			min-height: 100vh;
+			min-height: 650px;
 		}
 		.lh {
 			line-height: 35px;
 		}
+		.lh2 {
+			line-height: 2rem;
+		}
 		.btn {
 			width: fit-content;
+		}
+		p {
+			color: rgba(3,27,78,.7);
+			font-weight: 500;
 		}
 	</style>
 	<div class="container vh100 d-flex flex-column justify-content-center">
 		<h1 class="">European Carbon Dividend</h1>
-		<h4 class="mt-4 mb-4 gray">Tax carbon usage and redistribute the money raised as a basic income to the european citizens.</h4>
+		<h4 class="mt-4 mb-4 gray lead lh2">Tax carbon and redistribute the money raised as a basic income to the european citizens.</h4>
 	</div>
 	
 	<div class="container vh100 d-flex flex-column justify-content-center">
